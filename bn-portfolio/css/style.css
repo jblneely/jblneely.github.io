@@ -1,0 +1,22 @@
+.header {
+    color: blue;
+    text-align: center;
+}
+
+.parallax-container {
+    height: "300";
+}
+
+.opacity {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.slide-nave {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
