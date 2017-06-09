@@ -7,14 +7,29 @@ p {
 	color: white;
 	font-size: 20px;
 }
+a:hover {
+	color: lightblue;
+}
+nav ul a:hover {
+	background-color: transparent !important;
+}
 
 .header {
     color: blue;
     text-align: center;
 }
+.capfont {
+	font-family: 'Cormorant SC', serif;
+}
+.padding-large {
+	padding: 24px;
+}
 
 .parallax-container {
    
+}
+.fill {
+	width: 100%;
 }
 
 .opacity {
@@ -25,9 +40,5 @@ p {
     background-color: black;
     color: white;
 }
-a:hover {
-	background-color: rgba(0, 0, 0, 0.6);
-	border: 10px;
-	border-color: red;
-}
+
 

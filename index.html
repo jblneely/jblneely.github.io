@@ -8,74 +8,99 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <script src="https://use.fontawesome.com/6fa2722337.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
+<body class="black">
     <nav class="black white-text">
         <ul>
-            <li class="blue-text">BOWMAN NEELY</li>
+            <li class="brand-logo center blue-text capfont"><h1>BOWMAN NEELY</h1></li>
             <li><a href="mailto:bowman.neely@gmail.com">EMAIL</a></li>
             <li>TEL: (206)322-1000</li>
-            <li><a class="blue-text" href="https://www.linkedin.com/in/bowman-neely-6916a21/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a class="orange-text" href="https://github.com/jblneely"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-
+            <li><a href="https://www.linkedin.com/in/bowman-neely-6916a21/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/jblneely" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
         </ul>
         <ul class="right">
             <li><a href="public/img/techCV.pdf">RESUME</a></li>
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">PROJECTS<i class="material-icons right">arrow_drop_down</i></a></li>
             <ul id='dropdown1' class='dropdown-content'>
-                <li><a href="https://bullseye-aim.herokuapp.com/">BULLSEYE</a></li>
-                <li><a href="https://taskminder.herokuapp.com/">TASKMINDER</a></li>
-                <li><a href="#!">PROJECT PLACEHOLDER</a></li>
+                <li><a href="https://bullseye-aim.herokuapp.com/" target="_blank">BULLSEYE</a></li>
+                <li><a href="https://taskminder.herokuapp.com/" target="_blank">TASKMINDER</a></li>
                 <li><a href="#!">PROJECT PLACEHOLDER</a></li>
             </ul>
         </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </nav>
-    <!-- CAROUSEL -->
-    <div class="carousel carousel-slider center opacity container row" data-indicators="true">
-        
-    <div class="carousel-item opacity blue-text">
-            <p class="col s10 m6 left-align">Since 2004 I have provided legal advice and representation to clients with issues involving contract, copyright, trademark, trade secret, publicity and privacy rights, real estate, and estate law. By identifying issues I have helped clients protect their assets, avoid unnecessary disputes, and litigate when appropriate.</p> Building on 12 years as an intellectual property lawyer, and recent web development experience, I am pursuing opportunities at the confluence of law and technology.  <hr>Please do not hesitate to contact me using the contact information above or through linked-in or twitter.
-
-    </div>
-        <div class="carousel-item opacity blue-text">
-           <img src="public/img/profilepicture.png">   
+    <div class="row">
+        <div class="col s12">
+          <div class="card black">
+            <div class="card-content white-text">
+              <h4 class="col s12 m6 padding-large capfont">Building on twelve years practicing intellectual property law, and web development experience, I am pursuing opportunities at the confluence of law and technology.</h4>  
+              <p class="col s12 m6 padding-large grey-text text-lighten-1 capfont"> As an attorney I represent and advise technology businesses, software developers, intellectual property owners, and other clients with issues including contract, copyright, trademark, trade secret, licensing, advertising, publicity and privacy rights in all phases of litigation.  I've always been interested in web development and after representing programers and content providers as an attorney I decided to learn how to build programs to improve access to the judicial system.</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- PROJECTS -->
-    <div class="container row">
-        <div class="col xs12 s4">
-            <a href="https://bullseye-aim.herokuapp.com/"><img src="public/img/bullseye.png" alt="mobileview"></a>
+    <div class="row">
+        <div class="col s12 m4">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title capfont">BULLSEYE: <br>Javascript, Sequelize, Node JS, Express</span>
+              <a href="https://bullseye-aim.herokuapp.com/"><img src="public/img/bullseye.png" alt="mobileview"></a>
+              <p class="capfont">Tracking goals using objectives and key results.</p>
+              <a class="btn-floating waves-effect waves-light black" href="https://github.com/jblneely/bullseye" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          </div>
+         <div class="col s12 m4">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title capfont">TASKMINDER: <br>Mongo db, Express, Angular, Node JS </span>
+              <a href="https://taskminder.herokuapp.com/"><img src="public/img/taskminder.png" alt="mobileview"></a>
+              <p class="capfont">Tracking individual contributions to collective tasks.</p>
+              <a class="btn-floating waves-effect waves-light black" href="https://github.com/jblneely/taskmaster" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          </div>
+        <div class="col s12 m4">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title capfont">HIGHROLLER: <br>Vanilla Javascript, HTML5, CSS3</span>
+               <a href="https://taskminder.herokuapp.com/"><img src="public/img/highroller.png" alt="mobileview"></a>  
+               <p class="capfont">Reduce questions of chance to writing and roll the dice</p>  
+               <a class="btn-floating waves-effect waves-light black" href="https://github.com/jblneely/u1-project-game" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="col xs12 s4">
-            <a href="https://taskminder.herokuapp.com/"><img src="public/img/taskminder.png" alt="mobileview"></a>
-        </div>
-        <div class="col xs12 s4">
-            <a href="https://taskminder.herokuapp.com/"><img src="public/img/highroller.png" alt="mobileview"></a>       
-        </div>
-    </div>
+     </div>
+            
+            
     <!-- PARALLAX -->
-        <div class="section opacity black">
+    <div class="section opacity black">
         </div>
     <div class="parallax-container opacity">
         <div class="parallax"><img src="public/img/map.png"></div>
-             <h2 class="header">SEATTLE, WASHINGTON</h2>
+             <h2 class="white-text header capfont">SEATTLE, WASHINGTON</h2>
+        </div>
     </div>
+    <div>
+        <img class="center-align fill" src="public/img/profilepicture.png">
     </div>
-    <div class="parallax-container opacity">
+    <!-- <div class="parallax-container opacity">
         <div class="parallax"><img src="public/img/streetmap.png"></div>
     </div>
     <div class="section opacity black">
-    </div>
+    </div> -->
     <div class="parallax-container opacity">
         <div class="parallax"><img src="public/img/driftBoat.jpg"></div>
     </div>
+    <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://use.fontawesome.com/6fa2722337.js"></script>
 </body>
 
 </html>
